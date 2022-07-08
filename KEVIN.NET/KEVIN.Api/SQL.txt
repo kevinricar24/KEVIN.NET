@@ -1,0 +1,10 @@
+﻿
+
+
+
+https://www.sqltutorial.org/sql-sample-database/
+
+SQL SERVER
+
+Tables - https://www.sqltutorial.org/wp-content/uploads/2020/04/sqlserver.txt
+Data - https://www.sqltutorial.org/wp-content/uploads/2020/04/sqlserver-data.txt
