@@ -2,8 +2,11 @@
 {
     public interface IResponsePackage<T>
     {
+        int StatusCode { get; set; }
+        bool Success { get; set; }
+        T Payload { get; set; }
         string Message { get; set; }
-        T Result { get; set; }
         object Errors { get; set; }
+        int Id { get; set; }
     }
 }

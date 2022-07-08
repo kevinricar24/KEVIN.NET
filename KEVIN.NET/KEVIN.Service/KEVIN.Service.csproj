@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\KEVIN.Contract\KEVIN.Contract.csproj" />
+    <ProjectReference Include="..\KEVIN.Data\KEVIN.Data.csproj" />
+  </ItemGroup>
+
 </Project>

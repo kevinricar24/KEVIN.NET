@@ -1,10 +1,10 @@
 ﻿
-
-
-
-https://www.sqltutorial.org/sql-sample-database/
+source - https://www.sqltutorial.org/sql-sample-database/
 
 SQL SERVER
-
 Tables - https://www.sqltutorial.org/wp-content/uploads/2020/04/sqlserver.txt
 Data - https://www.sqltutorial.org/wp-content/uploads/2020/04/sqlserver-data.txt
+
+
+dotnet ef dbcontext scaffold "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=KEVINNET" Microsoft.EntityFrameworkCore.SqlServer --context-dir Database --output-dir Entities --force
+source - https://docs.microsoft.com/en-us/ef/core/managing-schemas/scaffolding?tabs=dotnet-core-cli#fluent-api-or-data-annotations
